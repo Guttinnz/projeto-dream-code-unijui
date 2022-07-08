@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double salary, value, total;
+
+char name;
+
+scanf("%s %lf %lf", &name, &salary, &value);
+
+total = salary+value*.15;
+
+printf("TOTAL = R$ %.2lf\n", total);
+
+return 0;
+}
