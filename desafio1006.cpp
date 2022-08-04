@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
 
     double A,B,C,MEDIA=0;
 
@@ -17,6 +17,6 @@ int main(){
     cout<<fixed;
 
     cout<<setprecision(1)<<"MEDIA = "<<MEDIA<<endl;   
-                                   
+
     return 0;
 }        
