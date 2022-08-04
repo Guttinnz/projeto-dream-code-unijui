@@ -4,8 +4,8 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
+    
 int c1, n1, c2, n2;
 
 float p1, p2, total;

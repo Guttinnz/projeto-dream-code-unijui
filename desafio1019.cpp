@@ -5,7 +5,9 @@
 #include <cmath> //biblioteca matemática pow e sqrt
 
 int main() {
+
 int seg; // qualquer inteiro
+
 int horas,minutos,segundos;
 //minutos * segundos
 cin >> seg;
