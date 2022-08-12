@@ -8,25 +8,25 @@ using namespace std;
 int main () {
 
 // Declaração de variáveis
-int a, b, resto;
+    int a, b, resto;
 
 // Entradas
-cin >> a;
-cin >> b;
+    cin >> a;
+    cin >> b;
 
 // Processamento
-if ( a > b ) {
-resto = a % b;
-} else { 
-resto = b % a;
-}
+    if ( a > b ) {
+    resto = a % b;
+    } else { 
+    resto = b % a;
+    }
 
 // Saída
-if ( resto == 0 ) {
-cout << "Sao multiplos" << endl;
-} else {
-cout << "Nao sao Multiplos" << endl;
-}
+    if ( resto == 0 ) {
+    cout << "Sao multiplos" << endl;
+    } else {
+    cout << "Nao sao Multiplos" << endl;
+    }
 
-return 0;
+    return 0;
 }

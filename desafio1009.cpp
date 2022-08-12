@@ -4,15 +4,15 @@ using namespace std;
 
 int main() {
 
-double salary, value, total;
+    double salary, value, total;
 
-char name;
+    char name;
 
-scanf("%s %lf %lf", &name, &salary, &value);
+    scanf("%s %lf %lf", &name, &salary, &value);
 
-total = salary+value*.15;
+    total = salary+value*.15;
 
-printf("TOTAL = R$ %.2lf\n", total);
+    printf("TOTAL = R$ %.2lf\n", total);
 
-return 0;
+    return 0;
 }

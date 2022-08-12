@@ -6,19 +6,19 @@ using namespace std;
 
 int main() {
 
-double a,b;
-double media;
+    double a,b;
+    double media;
 
-cout << fixed << setprecision(5);
+    cout << fixed << setprecision(5);
 
 // cout<<"nota 1 ="<<endl;
-cin>> a;
+    cin>> a;
 // cout<<"nota 2 ="<<endl;
-cin>> b;
+    cin>> b;
 
-media = (a*3.5+b*7.5)/11;
+    media = (a*3.5+b*7.5)/11;
 
-cout <<"MEDIA = " << media <<endl;
+    cout <<"MEDIA = " << media <<endl;
 
-return 0;
+    return 0;
 }

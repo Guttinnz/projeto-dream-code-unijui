@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
     
-double raio;
+    double raio;
 
-cin >> raio;
+    cin >> raio;
 
-cout << fixed << setprecision(3) << "VOLUME = " << (4/3.0)*3.14159*raio*raio*raio << endl;
+    cout << fixed << setprecision(3) << "VOLUME = " << (4/3.0)*3.14159*raio*raio*raio << endl;
 
-return 0;
+    return 0;
 }

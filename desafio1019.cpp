@@ -6,21 +6,21 @@
 
 int main() {
 
-int seg; // qualquer inteiro
+    int seg; // qualquer inteiro
 
-int horas,minutos,segundos;
+    int horas,minutos,segundos;
 //minutos * segundos
-cin >> seg;
+    cin >> seg;
 
-horas = seg / (6060);
-seg = seg % (6060);
+    horas = seg / (6060);
+    seg = seg % (6060);
 
-minutos = seg / 60;
-seg = seg % 60
+    minutos = seg / 60;
+    seg = seg % 60
 
-segundos = seg;
+    segundos = seg;
 
-cout << horas << ":" << minutos << ":" << segundos << endl;
+    cout << horas << ":" << minutos << ":" << segundos << endl;
 
-return 0;
+    return 0;
 }
