@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 
     double salary, value, total;
 
@@ -10,7 +11,7 @@ int main() {
 
     scanf("%s %lf %lf", &name, &salary, &value);
 
-    total = salary+value*.15;
+    total = salary + value * .15;
 
     printf("TOTAL = R$ %.2lf\n", total);
 

@@ -4,12 +4,13 @@
 
 #include <cmath> //biblioteca matemática pow e sqrt
 
-int main() {
+int main()
+{
 
     int seg; // qualquer inteiro
 
-    int horas,minutos,segundos;
-//minutos * segundos
+    int horas, minutos, segundos;
+    // minutos * segundos
     cin >> seg;
 
     horas = seg / (6060);
@@ -18,7 +19,7 @@ int main() {
     minutos = seg / 60;
     seg = seg % 60
 
-    segundos = seg;
+          segundos = seg;
 
     cout << horas << ":" << minutos << ":" << segundos << endl;
 

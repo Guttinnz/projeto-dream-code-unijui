@@ -5,27 +5,34 @@
 
 using namespace std;
 
-int main () {
+int main()
+{
 
-// Declaração de variáveis
+    // Declaração de variáveis
     int a, b, resto;
 
-// Entradas
+    // Entradas
     cin >> a;
     cin >> b;
 
-// Processamento
-    if ( a > b ) {
-    resto = a % b;
-    } else { 
-    resto = b % a;
+    // Processamento
+    if (a > b)
+    {
+        resto = a % b;
+    }
+    else
+    {
+        resto = b % a;
     }
 
-// Saída
-    if ( resto == 0 ) {
-    cout << "Sao multiplos" << endl;
-    } else {
-    cout << "Nao sao Multiplos" << endl;
+    // Saída
+    if (resto == 0)
+    {
+        cout << "Sao multiplos" << endl;
+    }
+    else
+    {
+        cout << "Nao sao Multiplos" << endl;
     }
 
     return 0;
