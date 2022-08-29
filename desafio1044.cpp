@@ -1,38 +1,19 @@
 #include <iostream>
-#include <string>
-#include <iomanip>
-#include <cmath>
 
 using namespace std;
 
-int main()
-{
+int main() {
+ 
+    int x, y;
 
-    // Declaração de variáveis
-    int a, b, resto;
+    cin >> x >> y;
 
-    // Entradas
-    cin >> a;
-    cin >> b;
-
-    // Processamento
-    if (a > b)
-    {
-        resto = a % b;
-    }
-    else
-    {
-        resto = b % a;
-    }
-
-    // Saída
-    if (resto == 0)
-    {
-        cout << "Sao multiplos" << endl;
-    }
-    else
-    {
-        cout << "Nao sao Multiplos" << endl;
+    if(x < y){
+        if(y % x == 0){cout << "Sao Multiplos" << endl;}
+        else{cout << "Nao sao Multiplos" << endl;}
+    }else{
+        if(x % y == 0){cout << "Sao Multiplos" << endl;}
+        else{cout << "Nao sao Multiplos" << endl;}
     }
 
     return 0;

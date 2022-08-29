@@ -2,63 +2,27 @@
 
 using namespace std;
 
-int main()
-{
-   int A, B, C, D, aux;
-
-   cin >> A;
-   cin >> B;
-   cin >> C;
-   cin >> D;
-
-   // A<=B B<=C
-
-   /// A  B  C
-   /// 7  5  4
-   ///  5  7
-   //      4   7
-
-   if (A > B)
-   {
-      aux = A;
-      A = B;
-      B = aux;
-   }
-
-   if (B > C)
-   {
-      aux = B;
-      B = C;
-      C = aux;
-   }
-   if (C > D)
-   {
-      aux = C;
-      C = D;
-      D = aux;
-   }
-
-   if (A > B)
-   {
-      aux = A;
-      A = B;
-      B = aux;
-   }
-
-   if (B > C)
-   {
-      aux = B;
-      B = C;
-      C = aux;
-   }
-
-   if (A > B)
-   {
-      aux = A;
-      A = B;
-      B = aux;
-   }
-   cout << A << " " << B << " " << C << " " << D << endl;
-
-   return 0;
+int main() {
+   
+    float x,y;
+    
+    cin >> x >> y;
+    
+    if(x == 0.0 && y == 0.0){
+         cout << "Origem\n";
+    }else if(x == 0.0){
+          cout << "Eixo Y\n";
+    }else if(y == 0.0){
+          cout << "Eixo X\n";
+    }else if(x < 0.0 && y < 0.0){
+          cout << "Q3\n";
+    }else if(x > 0.0 && y < 0.0){
+          cout << "Q4\n";
+    }else if(x > 0.0 && y > 0.0){
+          cout << "Q1\n";
+    }else if(x < 0.0 && y > 0.0){
+          cout << "Q2\n";
+    }
+    
+    return 0;
 }

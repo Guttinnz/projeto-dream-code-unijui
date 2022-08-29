@@ -1,11 +1,10 @@
 #include <iostream> //entradas e saída
-
 #include <iomanip> //casas decimais
-
 #include <cmath> //biblioteca matemática pow e sqrt
 
-int main()
-{
+using namespace std;
+
+int main() {
 
     int seg; // qualquer inteiro
 
@@ -19,7 +18,7 @@ int main()
     minutos = seg / 60;
     seg = seg % 60
 
-          segundos = seg;
+    segundos = seg;
 
     cout << horas << ":" << minutos << ":" << segundos << endl;
 

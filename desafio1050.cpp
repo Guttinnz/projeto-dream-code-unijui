@@ -5,8 +5,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     // Declaração de variáveis
     int ddd;
     // Entradas
@@ -14,8 +13,7 @@ int main()
     // Processamento
 
     // Saída
-    switch (ddd)
-    {
+    switch (ddd) {
     case 61:
         cout << "Brasilia" << endl;
         break;

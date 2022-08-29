@@ -4,9 +4,8 @@
 
 using namespace std;
 
-int main()
-{
-
+int main () {
+   
    int A, B, C, D;
 
    cin >> A;
@@ -14,15 +13,12 @@ int main()
    cin >> C;
    cin >> D;
 
-   if (B > C and D > A and C + D > A + B and
-       C > 0 and D > 0 and A % 2 == 0)
-   {
+   if ( B > C and D > A and C + D > A + B and
+        C > 0 and D > 0 and A %2 == 0 ) {
       cout << "Valores aceitos" << endl;
-   }
-   else
-   {
+   } else {
       cout << "Valores nao aceitos" << endl;
    }
 
-   return 0;
+    return 0;
 }
