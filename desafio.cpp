@@ -13,3 +13,22 @@
 //         case 12 : cout << "December" << endl; break;
 //         default : cout << "Meses de 1 a 12 tchê!" << endl;
 //     }
+
+// #include <iostream>
+// #include <string>
+// #include <iomanip>
+// #include <cmath>
+
+// using namespace std;
+
+// int main () {
+//     // Declaração de variáveis
+
+//     // Entradas
+
+//     // Processamento
+
+//     // Saída
+
+//     return 0;
+// }
