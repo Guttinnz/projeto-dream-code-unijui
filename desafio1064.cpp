@@ -5,24 +5,22 @@
 
 using namespace std;
 
-int main() {
+int main(){
 
-    double valor;
-    int n_positivos = 0;
-    double soma_positivos = 0;
-    double media;
+    float num,sum=0;
+    int i,count=0;
 
-
-    for(int cont = 1; cont <= 6; cont=cont+1){
-        cin >> valor;
-        if(valor>0){
-            n_positivos = n_positivos + 1;
-            soma_positivos = soma_positivos + valor;
+    for(i = 1; i <= 6; i++){
+        cin >> num;
+        if(num > 0){
+          sum = sum + num;
+          count++;
         }
     }
-    cout << n_positivos << " valores positivos" << endl;
-    media = soma_positivos/n_positivos;
-    cout << media << endl;
-
+    float average = sum/count;
+    cout << count << " valores positivos" << endl;
+    cout << fixed;
+    cout << setprecision(1) << average<<endl;
+    
     return 0;
 }
