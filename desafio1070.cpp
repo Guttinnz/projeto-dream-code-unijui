@@ -6,11 +6,6 @@
 using namespace std;
 
 int main () {
-    // Declaração de variáveis
-    int x, impar, resto, qtd_numero;
-
-    // Entradas
-cin >> x;
    // Declaração de variáveis
     int x, qtd_impar, resto;
     qtd_impar = 0; // inicialização da variável
